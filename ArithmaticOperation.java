@@ -1,6 +1,6 @@
 package April6;
-
 import java.util.Scanner;
+
 public class ArithmaticOperation {
     public int radius =10; //Proprty of  a class//
     public static void main(String[] args) {
