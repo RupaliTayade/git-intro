@@ -32,7 +32,6 @@ public class FamilarizedClass {
 
     private static double areaofCircle(int radius1) {
         double AreaOfCircle= (3.14*(radius1*radius1));
-
         return AreaOfCircle;
 
     }
