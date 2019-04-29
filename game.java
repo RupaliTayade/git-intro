@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 import java.util.Random;
 
 
-public class Calculator extends Application  {
+public class game extends Application  {
     private Stage window;
 
     TextField guessField = new TextField();
@@ -87,6 +87,7 @@ public class Calculator extends Application  {
                 guessField.setPromptText("Your guessed is to low! ohh..Try again.");
                 guessField.setText("");
                 counter++;
+
             }
             else
             {
