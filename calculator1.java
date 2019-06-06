@@ -8,10 +8,9 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-
+//Start
 public class calculator1 extends Application {
     private Stage window;
-
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -89,3 +88,4 @@ public class calculator1 extends Application {
     }
 
 }
+//end

@@ -13,7 +13,7 @@ public class FamilarizedClass {
         sub = ao.substraction(length, width);
         multi = ao.multiplication(length, width);
         div = ao.division(length, width);
-        //factorial method can not be access as it is PRIVATE
+        //factorial method can not be access as it is PRIVATE modifier
         //ao.factorial(length);
 
         //accessing the class property
@@ -26,9 +26,7 @@ public class FamilarizedClass {
     private static double perimeter(int radius1) {
        double perimiterOfCircle= 2*3.14*radius1;//perimiterOfCircle
 
-
         return perimiterOfCircle;//return perimiterOfCircle
-
 
     }
 
