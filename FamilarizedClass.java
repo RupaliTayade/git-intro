@@ -8,7 +8,7 @@ public class FamilarizedClass {
         double peri, area;
         int add, sub, multi, div;
 // Using above two values for arithmatic operation //
-        ArithmaticOperation ao = new ArithmaticOperation();
+        ArithmaticOperation ao = new ArithmaticOperation();//object ofArithmaticOperation
         add = ao.addition(length, width);
         sub = ao.substraction(length, width);
         multi = ao.multiplication(length, width);
