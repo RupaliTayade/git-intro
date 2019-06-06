@@ -9,8 +9,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 
-public class calculator1 extends Application
-{
+public class calculator1 extends Application {
     private Stage window;
 
 
@@ -22,7 +21,7 @@ public class calculator1 extends Application
 
         TextField go = new TextField();
         go.setPromptText("Input NUmber");
-        VBox vbox = new VBox();
+        VBox vbox = new VBox();//v box
 
         Button one = new Button(" 1 ");
         Button two = new Button(" 2 ");
@@ -37,7 +36,7 @@ public class calculator1 extends Application
 
         one.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         three.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
-       five.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
+         five.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         seven.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         nine.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
 
